@@ -63,12 +63,95 @@
         </button>
       </div>
 
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu data-menu">
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">Close</button>
-          <nav class="mobile-menu-nav">Navigation</nav>
-          <address>Address</address>
-          <div>Soc link</div>
+          <button class="mobile-menu-close" data-menu-close>
+            <svg class="mobile-menu-icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="nav-list-mabile">
+              <li class="nav-item-mobile">
+                <a class="nav-link-mobile current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="nav-item-mobile">
+                <a class="nav-link-mobile" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="contacts-menu">
+            <ul class="contacts-list-mobile">
+              <li class="contacts-item-mobile">
+                <a class="contacts-link-mobile" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contacts-item-mobile">
+                <a class="contacts-link-mobile" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="socials-menu">
+            <ul class="socials socials-menu-mobile">
+              <li class="socials-items">
+                <a
+                  class="socials-link"
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Link to Instagram"
+                >
+                  <svg class="socials-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-items">
+                <a
+                  class="socials-link"
+                  href="https://x.com"
+                  target="_blank"
+                  rel="noopener no-referrer"
+                  aria-label="Link to Twitter"
+                >
+                  <svg class="socials-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-items">
+                <a
+                  class="socials-link"
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener no-referrer"
+                  aria-label="Link to Facebook"
+                >
+                  <svg class="socials-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-items">
+                <a
+                  class="socials-link"
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  rel="noopener no-referrer"
+                  aria-label="Link to Linkedin"
+                >
+                  <svg class="socials-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -76,7 +159,7 @@
       <section class="main-section">
         <div class="container first-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="main-button">Order Service</button>
+          <button data-modal-open class="main-button">Order Service</button>
         </div>
       </section>
       <section class="opportunities">
@@ -487,7 +570,7 @@
     </footer>
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="button-last" type="button">
+        <button class="button-last" type="button" data-modal-close>
           <svg class="backdrop-button" width="8" height="8">
             <use href="./images/icons.svg#icon-Defoult2"></use>
           </svg>
@@ -575,5 +658,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
