@@ -269,20 +269,8 @@ button {
   position: absolute;
   top: 24px;
   right: 24px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 24px;
-  width: 24px;
-  border-radius: 50%;
-  background-color: transparent;
-  fill: #fff;
-  border-style: none;
-  cursor: pointer;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) border 250ms
-    cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 100%;
+  stroke-width: 1px;
 }
 
 .mobile-menu-close:focus,
@@ -298,14 +286,9 @@ button {
 }
 
 .nav-list-mobile {
-  position: relative;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .nav-link-mobile {
@@ -316,6 +299,14 @@ button {
   color: #2e2f42;
 }
 
+.nav-item-mobile {
+  margin-right: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .contacts-menu {
   margin-bottom: 48px;
 }
@@ -323,10 +314,9 @@ button {
 .address-link-tel {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 
