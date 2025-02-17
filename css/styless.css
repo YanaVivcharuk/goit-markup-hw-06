@@ -289,6 +289,8 @@ button {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .nav-link-mobile {
@@ -305,6 +307,9 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .contacts-menu {
