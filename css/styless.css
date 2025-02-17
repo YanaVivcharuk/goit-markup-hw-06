@@ -252,7 +252,6 @@ button {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 0;
   height: 100%;
 }
 
@@ -321,10 +320,18 @@ button {
   margin-bottom: 48px;
 }
 
+.address-link-tel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
 .contacts-list-mobile {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
 }
@@ -333,9 +340,11 @@ button {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  line-height: 120%;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-link-mobile:hover,
