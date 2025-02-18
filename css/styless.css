@@ -367,6 +367,10 @@ button {
 }
 
 .main-section {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  margin: 0 auto;
+  align-items: center;
   background-color: #2e2f42;
   background-repeat: no-repeat;
   background-position: center;
@@ -377,11 +381,6 @@ button {
       rgba(117, 120, 168, 0.7) 100%
     ),
     url(../images/office/office-mob-1-min.jpg ../images/office/office-mob-1@2x-min.jpg);
-
-  padding-top: 72px;
-  padding-bottom: 72px;
-  margin: 0 auto;
-  align-items: center;
 }
 
 .first-container {
