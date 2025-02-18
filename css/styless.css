@@ -380,7 +380,8 @@ button {
       rgba(46, 47, 66, 0.7) 0%,
       rgba(117, 120, 168, 0.7) 100%
     ),
-    url(../images/office/office-mob-1-min.jpg ../images/office/office-mob-1@2x-min.jpg);
+    url(../images/office/office-mob-1-min.jpg),
+    url(../images/office/office-mob-1@2x-min.jpg);
 }
 
 .first-container {
