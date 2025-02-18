@@ -159,7 +159,7 @@
           <ul class="item-list">
             <li class="list-item">
               <div class="icon-container">
-                <svg width="64" height="64">
+                <svg class="icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -171,7 +171,7 @@
             </li>
             <li class="list-item">
               <div class="icon-container">
-                <svg width="64" height="64">
+                <svg class="icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -183,7 +183,7 @@
             </li>
             <li class="list-item">
               <div class="icon-container">
-                <svg width="64" height="64">
+                <svg class="icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -195,7 +195,7 @@
             </li>
             <li class="list-item">
               <div class="icon-container">
-                <svg width="64" height="64">
+                <svg class="icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -214,11 +214,11 @@
           <ul class="list-class">
             <li class="list-team first-team">
               <img
-                src="./images/img-4.jpg"
-                ,
-                srcset="./images/img@2x (22).jpg"
-                ,
-                srcset="./images/img@1x (22).jpg"
+                srcset="
+                  ./images/team/team-1-min.jpg    1x,
+                  ./images/team/team-1@2x-min.jpg 2x
+                "
+                src="./images/team/team-1-min.jpg"
                 alt="Product Designer"
                 width="264"
               />
@@ -275,11 +275,11 @@
             </li>
             <li class="list-team first-team">
               <img
-                src="./images/img.jpg"
-                ,
-                srcset="./images/img@2x (23).jpg"
-                ,
-                srcset="./images/img@1x (23).jpg"
+                srcset="
+                  ./images/team/team-2-min.jpg    1x,
+                  ./images/team/team-2@2x-min.jpg 2x
+                "
+                src="./images/team/team-2-min.jpg"
                 alt="Frontend Developer"
                 width="264"
               />
@@ -336,11 +336,11 @@
             </li>
             <li class="list-team first-team">
               <img
-                src="./images/img-2.jpg"
-                ,
-                srcset="./images/img@2x (24).jpg"
-                ,
-                src="./images/TeamCard3.jpg"
+                srcset="
+                  ./images/team/team-3-min.jpg    1x,
+                  ./images/team/team-3@2x-min.jpg 2x
+                "
+                src="./images/team/team-3-min.jpg"
                 alt="Marketing"
                 width="264"
               />
@@ -397,11 +397,11 @@
             </li>
             <li class="list-team first-team">
               <img
-                src="./images/img-3.jpg"
-                ,
-                srcset="./images/img@2x (25).jpg"
-                ,
-                src="./images/TeamCard4.jpg"
+                srcset="
+                  ./images/team/team-4-min.jpg    1x,
+                  ./images/team/team-4@2x-min.jpg 2x
+                "
+                src="./images/team/team-4-min.jpg"
                 alt="UI Designer"
                 width="264"
               />
@@ -468,21 +468,27 @@
                 <picture>
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/img@1x (16).jpg"
-                    src="./images/img@2x (16).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-1-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-1@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/img@1x (10).jpg"
-                    src="./images/img@2x (10).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-1-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-1@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/img@1x (4).jpg"
-                    src="./images/img@2x (4).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-1-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-1@2x-min.jpg 2x
+                    "
                   />
                   <img
-                    src="./images/bank.jpg"
+                    src="./images/portfolio/portfolio-desk-1-min.jpg"
                     alt="App"
                     width="360"
                     height="300"
@@ -505,21 +511,27 @@
                 <picture>
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/img@1x (21).jpg"
-                    src="./images/img@2x (21).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-2-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-2@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/img@1x (11).jpg"
-                    src="./images/img@2x (11).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-2-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-2@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/img@1x (5).jpg"
-                    src="./images/img@2x (5).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-2-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-2@2x-min.jpg 2x
+                    "
                   />
                   <img
-                    src="./images/cash.jpg"
+                    src="./images/portfolio/portfolio-desk-2-min.jpg"
                     alt="Marketing"
                     width="360"
                     height="300"
@@ -542,21 +554,27 @@
                 <picture>
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/img@1x (17).jpg"
-                    src="./images/img@2x (17).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-3-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-3@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/img@1x (12).jpg"
-                    src="./images/img@2x (12).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-3-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-3@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/img@1x (6).jpg"
-                    src="./images/img@2x (6).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-3-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-3@2x-min.jpg 2x
+                    "
                   />
                   <img
-                    src="./images/meditation.jpg"
+                    src="./images/portfolio/portfolio-desk-3-min.jpg"
                     alt="App"
                     width="360"
                     height="300"
@@ -579,21 +597,27 @@
                 <picture>
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/img@1x (18).jpg"
-                    src="./images/img@2x (18).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-4-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-4@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/img@1x (13).jpg"
-                    src="./images/img@2x (13).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-4-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-4@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/img@1x (7).jpg"
-                    src="./images/img@2x (7).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-4-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-4@2x-min.jpg 2x
+                    "
                   />
                   <img
-                    src="./images/taxi.jpg"
+                    src="./images/portfolio/portfolio-desk-4-min.jpg"
                     alt="Marketing"
                     width="360"
                     height="300"
@@ -616,21 +640,27 @@
                 <picture>
                   <source
                     media="(min-width: 1158)"
-                    srcset="./images/img@1x (19).jpg"
-                    src="./images/img@2x (19).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-5-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-5@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/img@1x (14).jpg"
-                    src="./images/img@2x (14).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-5-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-5@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/img@1x (8).jpg"
-                    src="./images/img@2x (8).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-5-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-5@2x-min.jpg 2x
+                    "
                   />
                   <img
-                    src="./images/screen.jpg"
+                    src="./images/portfolio/portfolio-desk-5-min.jpg"
                     alt="Design"
                     width="360"
                     height="300"
@@ -653,21 +683,27 @@
                 <picture>
                   <source
                     media="(min-width: 1158)"
-                    srcset="./images/img@1x (20).jpg"
-                    src="./images/img@2x (20).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-desk-6-min.jpg    1x,
+                      ./images/portfolio/portfolio-desk-6@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/img@1x (15).jpg"
-                    src="./images/img@2x (15).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-tab-6-min.jpg    1x,
+                      ./images/portfolio/portfolio-tab-6@2x-min.jpg 2x
+                    "
                   />
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/img@1x (9).jpg"
-                    src="./images/img@2x (9).jpg"
+                    srcset="
+                      ./images/portfolio/portfolio-mob-6-min.jpg    1x,
+                      ./images/portfolio/portfolio-mob-6@2x-min.jpg 2x
+                    "
                   />
                   <img
-                    src="./images/online.jpg"
+                    src="./images/portfolio/portfolio-desk-6-min.jpg"
                     alt="Marketing"
                     width="360"
                     height="300"
